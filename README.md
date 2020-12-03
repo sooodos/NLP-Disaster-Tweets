@@ -1,5 +1,7 @@
-Authors: Marcos Antonios Charalambous (mchara01@cs.ucy.ac.ucy)
-		   Sotiris Loizidis (sotirisloizidis@gmail.com)
+Authors:  
+* Sotiris Loizidis (sotirisloizidis@gmail.com)
+* Marcos Antonios Charalambous (mchara01@cs.ucy.ac.ucy)
+		  
 		   
 ## Table of contents
 * [Description](#description)
