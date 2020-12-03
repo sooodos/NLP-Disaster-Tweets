@@ -31,19 +31,19 @@ purpose we where given access to a dataset of 10,000 tweets that were hand class
 Evaluations are done using F1 between the predicted and expected answers.
 
 Each sample in the train and test set has the following information:
--The id of a tweet
--The text of a tweet
--A keyword from that tweet (may be blank)
--The location the tweet was sent from (may be blank)
+- The id of a tweet
+- The text of a tweet
+- A keyword from that tweet (may be blank)
+- The location the tweet was sent from (may be blank)
 	
 ## Dataset
 train.csv: Dataset used for model building which contains the above columns.
 
 ## Setup
-python disasters.py
-python parameter_tuning_logistic_regression.py
-python ngrams_feature_selection.py
-python submit.py (If sumbitting to the competition is desired)
+* python disasters.py
+* python parameter_tuning_logistic_regression.py
+* python ngrams_feature_selection.py
+* python submit.py (If sumbitting to the competition is desired)
 
 
 ## Notes
