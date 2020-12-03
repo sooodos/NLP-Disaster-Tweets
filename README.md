@@ -1,14 +1,13 @@
 Authors: Marcos Antonios Charalambous (mchara01@cs.ucy.ac.ucy)
 		   Sotiris Loizidis (sotirisloizidis@gmail.com)
 		   
-		   ## Table of contents
+## Table of contents
 * [Description](#description)
 * [Dataset](#dataset)
 * [Setup](#setup)
 * [Notes](#notes)
 
 ## Description
---------------
 Twitter has become an important communication channel in times of emergency.
 The ubiquitousness of smartphones enables people to announce an emergency 
 they are observing in real-time. Because of this, more agencies are interested
@@ -36,11 +35,9 @@ Each sample in the train and test set has the following information:
 -The location the tweet was sent from (may be blank)
 	
 ## Dataset
-----------
 train.csv: Dataset used for model building which contains the above columns.
 
 ## Setup
---------
 python disasters.py
 python parameter_tuning_logistic_regression.py
 python ngrams_feature_selection.py
@@ -48,7 +45,6 @@ python submit.py (If sumbitting to the competition is desired)
 
 
 ## Notes
---------
 Warning: There are many non-default modules installed in this project. Please install anaconda first and then
 install any other missing module using pip install <name of module> needed to successfully execute the files
 in this project.
